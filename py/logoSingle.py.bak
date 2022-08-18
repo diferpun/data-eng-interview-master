@@ -14,5 +14,5 @@ if __name__ == "__main__":
        img_url = get_icon(line, auth_param=False, tout=5)
        sys.stdout.flush()
        line=line.strip('\n')
-       sys.stdout.write(f"{line};{img_url}\n")
+       sys.stdout.write(f"{line} {img_url}\n")
 

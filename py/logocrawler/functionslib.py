@@ -21,7 +21,7 @@ def getdata(url,auth_param=False,tout=5):
     if auth_param:
        print("hola")
        urlf=f"{proxy_url}/?auth_key={auth_key}&url={url}"
-       r=requests.get(url=urlf).text
+       r=requests.get(url=urlf,timeout=tout).text
     else:
        r = requests.get(url=url,timeout=tout).text
     return r

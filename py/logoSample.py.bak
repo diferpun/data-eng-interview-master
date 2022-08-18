@@ -7,5 +7,5 @@ import sys
 from logocrawler.functionslib import logo_collector
 
 if __name__ == "__main__":
-   logo_df = logo_collector(verbose=True,auth_param=False)
+   logo_df = logo_collector(verbose=True,auth_param=True)
 
