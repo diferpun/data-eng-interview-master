@@ -8,5 +8,10 @@ This program is used to read every URL inside the websites.csv file, in order to
 
 This program is used to retrieve the url logo for one entry only with the use of STDIN and STDOUT for writting in one csv file. If the url image cannot be obtain the result is a None value. Examples for Console entries for this program are:
 
-http://facebook.com ==> for a URL 
-q                   ==> for exit the program
+
+<ul>
+  <li>http://facebook.com ==> for a URL </li>
+  <li>q ==> for close the program</li>
+</ul>
+
+
