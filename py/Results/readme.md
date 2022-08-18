@@ -1,0 +1,1 @@
+This graphics shows two variations of the algorithm, the first one access directly to the url information, the second one uses a proxy url and a authentication key in order to avoid restriction and try to get more logos. Also the percentage of retrieved logos are calculated as a quality measure for the two approaches.
